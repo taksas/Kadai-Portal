@@ -1,0 +1,524 @@
+﻿body{
+    width: 530px;
+    height:460px;
+    background-color: antiquewhite;
+}
+/*Mainタブ*/
+#QR{
+    position:absolute; top:72px; right:15px;
+    width: 100px;
+    height: 100px;
+    }
+    #advertise{
+        font-size: 7pt;
+        position:absolute; top:60px; left:10px;
+    }
+    #QRdescription{
+        position:absolute; top:130px; right:130px;
+    }
+    #Moodle{
+        width: 150px;
+    }
+    #Outlook{
+        width:100px
+    }
+    #Onedrive{
+        width: 100px;
+        position: relative; top:20px; left:00px;
+    }
+    #one{
+        width: 200px;
+        margin-right: 10px;
+        position:absolute; top:190px; left:10px;
+    }
+    #two{
+        width: 160px;
+        margin-right: 2px;
+        position:absolute; top:190px; left:220px;
+    }
+    #three{
+        width:110px;
+        margin-right: 10px;
+        position:absolute; top:190px; left:380px;
+    }
+    #f_one{
+        width: 49%;
+        text-align: center;
+        position:absolute; top:370px; left:30px;
+    }
+    #f_two{
+        text-align: center;
+        position:absolute; top:370px; left:280px;
+    }
+    #button_portal {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        font-size     : 15pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #236996;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+    }
+        #button_portal:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+
+    #button_moodle {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #5c7bb4;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 2em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        height        : 150px;
+        }
+        #button_moodle:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+
+    #button_outlook {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #14b429;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        height        : 150px;
+        }
+        #button_outlook:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+
+    #button_onedrive {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #906094;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        height        : 150px;
+        }
+        #button_onedrive:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+
+    #button_dreamcampus {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #f87272;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        }
+        #button_dreamcampus:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+        #description{
+            clear: left;
+            position:absolute; top:435px; left:130px;
+        }
+
+
+
+
+/*知プラタブ*/
+#chipuraTitle{
+    font-size: 30px;
+    position:absolute; top:55px; left:20px;
+    background:linear-gradient(transparent 90%, #ffbb00 0%);
+    }
+    #chipuraMoodleIcon{
+        position:absolute; top:80px; right:35px;
+        width: 150px;
+    }
+    .button_chipura1{
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+        margin-left: 5px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+    }
+    .button_chipura1:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 0.8;         /* カーソル時透明度 */
+    }
+    #button_ehime{
+        background-color: #e0a421;
+        position:absolute; top:130px; left:10px;
+    }
+    #button_kagawa{
+        background-color: #34bd21;
+        position:absolute; top:130px; left:270px;
+    }
+    .button_chipura2{
+        width: 73px;
+        height: 90px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 5px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        line-height   : 1.5;
+        vertical-align: top;   /* 上端を揃える */
+    }
+    .button_chipura2:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 0.8;         /* カーソル時透明度 */
+    }
+    #button_narukyo{
+        background-color: #236996;
+        position:absolute; top:230px; left:270px;
+    }
+    #button_tokushima{
+        background-color: #7f2396;
+        position:absolute; top:230px; left:400px;
+    }
+    .button_chipura3{
+        width: 200px;
+        height: 90px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 5px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        line-height   : 1.5;
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        line-height   : 1;
+
+    }
+    .button_chipura3:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 0.8;         /* カーソル時透明度 */
+    }
+    #button_kochi{
+        background-color: #1bc1df;
+        position:absolute; top:230px; left:10px;
+    }
+
+    .button_englishCentral{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 5px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 20px;   /* 余白       */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 0em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        background-color: #ff4e4e;
+        position:absolute; top:380px; left:150px;
+    }
+    .button_englishCentral:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 0.8;         /* カーソル時透明度 */
+    }
+
+
+/*Twitterタブ*/
+#twitterTitle{
+    position:absolute; top:65px; left:30px;
+    }
+    .button_twitterTitle {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #2eceff;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        }
+        .button_twitterTitle:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+    #twitterAd{
+        position:absolute; top:70px; left:330px;
+    }
+    .button_twitterAd {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #f87272;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        }
+        .button_twitterAd:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+    #description{
+        clear: left;
+        position:absolute; top:435px; left:130px;
+    }
+
+
+    #pr2{
+        width: 47%;
+        position:absolute; top:150px; left:10px;
+    }
+    #pr1{
+        width: 47%;
+        position:absolute; top: 300px; left:10px;
+    }
+    #pr3{
+        width:48%;
+        position:absolute; top:150px; left:270px;
+    }
+    #pr4{
+        width:48%;
+        position:absolute; top:360px; left:270px;
+    }
+
+/*Movieタブ*/
+#twitterVideos{
+    position:absolute; top:80px; left:20px;
+    }
+    #movieTwitter{
+        position:absolute; top:370px; left:80px;
+    }
+
+
+
+/*Toolsタブ*/
+/*タブのスタイル*/
+.tools_tab_item {
+    width: calc(100%/2);                 /*全体を要素数で等分*/
+    height: 50px;                        /*縦幅*/
+    border-bottom: 3px solid #27ca3d;  /*下のラインの色*/
+    background-color: #d9d9d9;         /*背景色*/
+    line-height: 50px;                   /*文字の上下*/
+    font-size: 16px;                     /*文字の大きさ*/
+    text-align: center;                  /*テキスト左右配置*/
+    color: #565656;                    /*文字色*/
+    display: block;                      /*https://saruwakakun.com/html-css/basic/display*/
+    float: left;                         /*配置方法*/
+    font-weight: bold;                   /*文字の太さ*/
+    transition: all 0.2s ease;           /*滑らかな変化*/
+    }
+    .tools_tab_item:hover {
+        opacity: 0.75;                       /*透明度*/
+    }
+    /*ラジオボタンを全て消す*/
+    input[name="tools_tab_item"] {
+        display: none;
+    }
+    /*選択されているタブのスタイルを変える*/
+    input:checked + .tools_tab_item {
+        background-color: #27ca3d;
+        color: #fff;
+    }
+
+    /* ▼タブの中身(共通装飾＋非選択状態の装飾) */
+    .tools_tab_content{
+        display: none;             /*標準では非表示*/
+        background-color: #b8e5f7; /*背景色*/
+        width: 530px;
+        height:460px;
+    }
+    /*選択されているタブのコンテンツのみを表示*/
+    #tools_clock:checked ~ #tools_clock_content{
+        display: block;
+    }
+    #tools_timer:checked ~ #tools_timer_content{
+        display: block;
+    }
+
+    /*clockタブ*/
+    #tools_clock_kyouha{
+        font-size: 30px;
+        position:absolute; top:100px;left:20px;
+    }
+    #clock_display_today{
+        font-size: 70px;
+        position:absolute; top:100px;left:50px;
+    }
+    #tools_clock_gennzaijikokuha{
+        font-size: 30px;
+        position:absolute; top:260px;left:20px;
+    }
+    #clock_display{
+        font-size: 120px;
+        position:absolute; top:180px; left:50px;
+    }
+    /*timerタブ*/
+    .timer_input{
+        width: 60px;
+        height: 40px;
+        font-size: 35px;
+        border-radius : 14%;          /* 角丸       */
+        border-color: #099dca;
+    }
+    .timer-input-text{
+        position:absolute; top:130px; left:100px;
+    }
+    .time-input2{
+        font-size: 30px;
+    }
+    #timer_nokori{
+        font-size: 30px;
+        position:absolute; top:-10px; left:px;
+    }
+    .timer_output-text{
+        position:absolute; top:200px; left:50px;
+    }
+    .count_down1{
+        font-size: 110px;
+    }
+    .count_down2{
+        font-size: 40px;
+    }
+    .timer_button {
+        display       : inline-block;
+        font-size: 25px;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 50px;   /* 余白       */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 2em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        }
+        .timer_button:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+    #start-button{
+        background    : #1abef0;     /* 背景色     */
+        position:absolute; top:360px; left:50px;
+    }
+    #reset-button{
+        background    : #707070ee;     /* 背景色     */
+        position:absolute; top:360px; left:300px;
+    }
+
+
+
+
+
+
+
+/*一番上のタブ*/
+/*タブのスタイル*/
+.tab_item {
+    width: calc(100%/5);                 /*全体を要素数で等分*/
+    height: 50px;                        /*縦幅*/
+    border-bottom: 3px solid #5ab4bd;  /*下のラインの色*/
+    background-color: #d9d9d9;         /*背景色*/
+    line-height: 50px;                   /*文字の上下*/
+    font-size: 16px;                     /*文字の大きさ*/
+    text-align: center;                  /*テキスト左右配置*/
+    color: #565656;                    /*文字色*/
+    display: block;                      /*https://saruwakakun.com/html-css/basic/display*/
+    float: left;                         /*配置方法*/
+    font-weight: bold;                   /*文字の太さ*/
+    transition: all 0.2s ease;           /*滑らかな変化*/
+    }
+    .tab_item:hover {
+        opacity: 0.75;                       /*透明度*/
+    }
+    /*ラジオボタンを全て消す*/
+    input[name="tab_item"] {
+        display: none;
+    }
+    /*選択されているタブのスタイルを変える*/
+    input:checked + .tab_item {
+        background-color: #36a5af;
+        color: #fff;
+    }
+
+    /* ▼タブの中身(共通装飾＋非選択状態の装飾) */
+    .tab_content{
+        display: none;             /*標準では非表示*/
+        background-color: #b8e5f7; /*背景色*/
+        width: 530px;
+        height:460px;
+    }
+    /*選択されているタブのコンテンツのみを表示*/
+    #main:checked ~ #main_content{
+        display: block;
+    }
+    #chipura:checked ~ #chipura_content{
+        display: block;
+    }
+    #twitter:checked ~ #twitter_content {
+        display: block;
+    }
+    #twimovie:checked ~ #movie_content {
+        display: block;
+    }
+    #tools:checked ~ #tools_content {
+        display: block;
+    }
