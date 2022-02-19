@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <!--新しいタブでリンクを開く-->
+        <base target="_blank">
+    </head>
+    <body>
+        <header></header>
+        <input id="main" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="main">Main</label>
+
+        <input id="chipura" type="radio" name="tab_item">
+        <label class="tab_item" for="chipura">知プラ</label>
+
+        <input id="twitter" type="radio" name="tab_item">
+        <label class="tab_item" for="twitter">Twitter</label>
+
+        <input id="twimovie" type="radio" name="tab_item">
+        <label class="tab_item" for="twimovie">Movie</label>
+
+        <input id="tools" type="radio" name="tab_item">
+        <label class="tab_item" for="tools">Tools</label>
+
+        <div class="tab_content" id="main_content">
+            <img src="icon/QR.png" id="QR">
+            <div id="advertise">
+                <h1><a href="https://twitter.com/KU_SETOKU">【隊員募集中】Security Team of Kagawa-Univ<Br> SETOKU-学生サイバー防犯ボランティア</a></h1>
+            </div>
+            <h2 id="QRdescription">入隊は<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=3nVDIlCDKEiNt7Yd_XlR6o4SyIuuHVJKr8QLAIAjmg1UNlhTM0pJTVhHMjdVMlFZTzVPWTZKSDE2QyQlQCN0PWcu&qrcode=true">コチラ</a>▶▶▶</h2>
+            <div id="links">
+                <div id="one">
+                    <a href="https://kadai-moodle.kagawa-u.ac.jp/my/" id="button_moodle"><h2>授業資料<Br>課題提出<Br>出欠確認（一部）</h2>
+                    <img src="icon/Moodle_logo_small.svg" id="Moodle"></a>
+                </div>
+                <div id="two">
+                    <a href="https://outlook.office.com/mail/" id="button_outlook"><h2>大学メール</h2>
+                    <img src="icon/Microsoft_Office_Outlook_(2018–present).svg" id="Outlook"></a>
+                </div>
+                <div id="three">
+                    <a href="https://kagawaverif-my.sharepoint.com/" id="button_onedrive"><h2>Onedrive</h2>
+                    <img src="icon/Microsoft_Office_OneDrive_(2019–present).svg" id="Onedrive"></a>
+                </div>
+                <div id="footer">
+                    <div id="f_one">
+                        <h2><a href="https://www2.st.kagawa-u.ac.jp/Portal/" id="button_dreamcampus" >DreamCampus</a></h2>
+                    </div>
+                    <div id="f_two">
+                        <h2><a href="https://sites.google.com/view/kadai-portal" id="button_portal">香川大学Portal</a></h2>
+                    </div>
+                </div>
+                <div id="description">
+                    <p>MIT Licence are applied this extension except for icon files.</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab_content" id="chipura_content">
+            <h1 id="chipuraTitle">知プラｅMoodle</h1>
+            <img src="icon/Moodle_logo_small.svg" id="chipuraMoodleIcon">
+            <a href="https://moodle35.lms.ehime-u.ac.jp/moodle/"                class="button_chipura1" id="button_ehime"><h2>愛媛大学</h2></a>
+            <a href="https://lms-sp.itc.kagawa-u.ac.jp/moodle2021/"             class="button_chipura1" id="button_kagawa"><h2>香川大学</h2></a>
+            <a href="https://moodle.kochi-u.ac.jp/2021/"                        class="button_chipura3" id="button_kochi"><h2>高知大学</h2></a>
+            <a href="https://lms.naruto-u.ac.jp/course/index.php?categoryid=26" class="button_chipura2" id="button_narukyo"><h2 >鳴門<Br>教育</h2></a>
+            <a href="https://moo3.chi.tokushima-u.ac.jp/"                       class="button_chipura2" id="button_tokushima"><h2>徳島<Br>大学</h2></a>
+            <a href="https://ja.englishcentral.com/myclass/118958/0/courses"    class="button_englishCentral"  id="englishCentral"><h2>English Central</h2></a>
+        </div>
+        <div class="tab_content" id="twitter_content">
+            <a href="https://mobile.twitter.com/ku_setoku"><h1 class="button_twitterTitle" id="twitterTitle">SETOKU 公式Twitter</h1></a>
+            <a href="https://twitter.com/KU_SETOKU/status/1458962584304979971"><h2 class="button_twitterAd" id="twitterAd">PR動画はコチラ</h2></a>
+            <img src="icon/pr2.png" id="pr2">
+            <img src="icon/pr1.png" id="pr1">
+            <img src="icon/pr3.png" id="pr3">
+            <img src="icon/pr4.png" id="pr4">            
+        </div>
+        <div class="tab_content" id="movie_content">
+            <video src="videos/640-360.mp4" controls width="500px" id="twitterVideos"></video>
+            <a href="https://mobile.twitter.com/ku_setoku"><h1 class="button_twitterTitle" id="movieTwitter">SETOKU 公式Twitter</h1></a>
+        </div>
+        <div class="tab_content" id="tools_content">
+            <!--button-->
+            <input id="tools_clock" type="radio" name="tools_tab_item" checked>
+            <label class="tools_tab_item" for="tools_clock">Clock</label>
+            <input id="tools_timer" type="radio" name="tools_tab_item">
+            <label class="tools_tab_item" for="tools_timer">Timer</label>
+            <input id="tools_stopWatch" type="radio" name="tools_tab_item">
+            <label class="tools_tab_item" for="tools_stopWatch">StopWatch</label>
+
+            <!--content-->
+            <!--clock-->
+            <div class="tools_tab_content" id="tools_clock_content">
+                <p id="tools_clock_kyouha">今日は、</p>
+                <p id="clock_display_today">今日</p>
+                <p id="tools_clock_gennzaijikokuha">現在時刻は、</p>
+                <p id="clock_display">現在時刻</p>
+                <script src="scripts/clock.js" charset="UTF-8"></script>
+            </div>
+            <!--timer-->
+            <div class="tools_tab_content" id="tools_timer_content">
+                <form id="timer-input-form">
+                    <div class="timer-input-text">
+                        <input type="number" value="0" class="timer_input" id="time-input_h" />
+                        <label for="time-input_h" class="time-input2">h&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" value="0" class="timer_input" id="time-input_m" />
+                        <label for="time-input_m"class="time-input2">m&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" value="0" class="timer_input" id="time-input_s" />
+                        <label for="time-input_s" class="time-input2">s&nbsp;&nbsp;&nbsp;</label>
+                    </div>
+                    <div class="timer_output-text">
+                        <span id="timer_nokori">のこり<br></span>
+                        <span class="count_down1" id="count-down_h">00</span>
+                        <span class="count_down2" id="count-down_hh">h</span>
+                        <span class="count_down1" id="count-down_m">00</span>
+                        <span class="count_down2" id="count-down_mm">m</span>
+                        <span class="count_down1" id="count-down_s">00</span>
+                        <span class="count_down2" id="count-down_ss">s</span>
+                        <span class="count_down1" id="count-down_ms">000</span>
+                        <span class="count_down2" id="count-down_msms">ms</span>
+                    </div>
+            
+                    <div class="timer_submit">
+                        <button type="button" class="timer_button" id="start-button">スタート</button>
+                        <button type="button" class="timer_button" id="reset-button">リセット</button>
+                    </div>
+                </form>
+                <script src="scripts/timer.js"></script>
+            </div>
+            <!--stopwatch-->
+            <div class="tools_tab_content" id="tools_stopWatch_content">
+                <div class="stopWatch_submit">
+                    <button type="button" class="stopWatch_button" id="stopWatch-start-button">スタート</button>
+                    <button type="button" class="stopWatch_button" id="stopWatch-reset-button">ストップ</button>
+                    <button type="button" class="stopWatch_button" id="stopWatch-reset-button2">リセット</button>
+                </div>
+                <div class="stopWatch_display">
+                    <span class="stopWatch_count1" id="stopWatch_count_h">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_hh">h</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_m">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_mm">m</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_s">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_ss">s</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_msec">000</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_msecmsec">ms</span>
+                    <span id="stopWatch_keika">経過</span>
+                </div>
+                <script src="scripts/stopwatch.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
