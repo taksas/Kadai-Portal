@@ -1,0 +1,22 @@
+﻿{
+    "name":"Kadai-Portal",
+    "manifest_version":3,
+    "version":"1.1.2",
+    "description": "Link Collection for Students of Kagawa-Univ by SETOKU",
+    "icons": {
+        "16": "src/icon/icon16.png",
+        "48": "src/icon/icon48.png",
+        "128": "src/icon/icon128.png"
+    },
+    "action":{
+        "default_icon":{
+            "19":"src/icon/icon19.png"
+        },
+        "default_title":"【隊員募集中】SETOKU サイバー防犯ボランティア",
+        "default_popup":"src/popup.html"
+    },
+    "homepage_url":"https://twitter.com/KU_SETOKU",
+    "background.service_worker": {
+        "page": "src/background/background.html"
+      }
+}
