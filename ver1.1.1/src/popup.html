@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <!--ホバー時-->
+        <link rel="stylesheet" type="text/css" href="css/hover.css">
+        <!--アニメーション-->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!--新しいタブでリンクを開く-->
+        <base target="_blank">
+        <!--jQuery依存-->
+        <script src="scripts/jQuery3-6-0.js"></script>
+        <!--tyoed.js jQueryプラグイン-->
+        <script src="scripts/typed.js"></script>
+        <!--URL開く-->
+        <script src="scripts/openURL.js"></script>
+    </head>
+    <body>
+        <header></header>
+        <input id="main" type="radio" name="tab_item" checked>
+        <label class="tab_item hvr-sweep-to-top" for="main">Main</label>
+
+        <input id="chipura" type="radio" name="tab_item">
+        <label class="tab_item hvr-sweep-to-top" for="chipura">知プラ</label>
+
+        <input id="jikanwari" type="radio" name="tab_item">
+        <label class="tab_item hvr-sweep-to-top" for="jikanwari">時間割</label>
+
+        <input id="twitter" type="radio" name="tab_item">
+        <label class="tab_item hvr-sweep-to-top" for="twitter">Twitter</label>
+
+        <input id="twimovie" type="radio" name="tab_item">
+        <label class="tab_item hvr-sweep-to-top" for="twimovie">Movie</label>
+
+        <input id="tools" type="radio" name="tab_item">
+        <label class="tab_item hvr-sweep-to-top" for="tools">Tools</label>
+
+        <div class="tab_content" id="main_content">
+
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=3nVDIlCDKEiNt7Yd_XlR6o4SyIuuHVJKr8QLAIAjmg1UNlhTM0pJTVhHMjdVMlFZTzVPWTZKSDE2QyQlQCN0PWcu&qrcode=true">
+                <img class="animate__animated animate__rubberBand" src="icon/QR.png" id="QR">
+            </a>
+            <div id="advertise">
+                <h1><a href="https://twitter.com/KU_SETOKU">【隊員募集中】Security Team of Kagawa-Univ<Br> SETOKU-学生サイバー防犯ボランティア</a></h1>
+            </div>
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=3nVDIlCDKEiNt7Yd_XlR6o4SyIuuHVJKr8QLAIAjmg1UNlhTM0pJTVhHMjdVMlFZTzVPWTZKSDE2QyQlQCN0PWcu&qrcode=true">
+                <h2 id="QRdescription">入隊はコチラ▶▶▶</h2>
+            </a>
+            <a href="https://chrome.google.com/webstore/detail/kadai-portal/hdhoinnfhbpffegdjmkkhoijbfpenpeg" class="animate__animated animate__bounceInLeft" id="button_tsukaikata"><h2>使い方/ヘルプ</h2></a>
+            <div id="links">
+                <div class="hvr-rotate" id="one">
+                    <a href="https://kadai-moodle.kagawa-u.ac.jp/my/" id="button_moodle"><h2>授業資料<Br>課題提出<Br>出欠確認（一部）</h2>
+                    <img src="icon/Moodle_logo_small.svg" id="Moodle"></a>
+                </div>
+                <div class="hvr-rotate" id="two">
+                    <a href="https://outlook.office.com/mail/" id="button_outlook"><h2>大学メール</h2>
+                    <img src="icon/Microsoft_Office_Outlook_(2018–present).svg" id="Outlook"></a>
+                </div>
+                <div class="hvr-rotate" id="three">
+                    <a href="https://kagawaverif-my.sharepoint.com/" id="button_onedrive"><h2>Onedrive</h2>
+                    <img src="icon/Microsoft_Office_OneDrive_(2019–present).svg" id="Onedrive"></a>
+                </div>
+                <div>
+                    <div id="f_one">
+                        <h2><a href="https://www2.st.kagawa-u.ac.jp/Portal/" class="hvr-wobble-top" id="button_dreamcampus" >DreamCampus</a></h2>
+                    </div>
+                    <div id="f_two">
+                        <h2><a href="https://sites.google.com/view/kadai-portal" class="hvr-wobble-top" id="button_portal">香川大学Portal</a></h2>
+                    </div>
+                </div>
+                <p id="versionInfo">v 1.0.0</p>
+               <!-- <div class="switchArea_darkmode">
+                    <input type="checkbox" id="switch_darkmode">
+                    
+                    <label for="switch_darkmode"><span></span></label>
+                    <div id="swImg_darkmode"></div>
+                    <span id="switch_darkmode_comment">DarkMode</span>
+                </div>-->
+            </div>
+        </div>
+        <div class="tab_content" id="chipura_content">
+            <h1 class="animate__animated animate__bounceInLeft" id="chipuraTitle">知プラｅMoodle</h1>
+            <img src="icon/Moodle_logo_small.svg" class="animate__animated animate__bounceInRight" id="chipuraMoodleIcon">
+            <a href="https://moodle35.lms.ehime-u.ac.jp/moodle/"                class="button_chipura1 animate__animated animate__bounceIn" id="button_ehime"><h2>愛媛大学</h2></a>
+            <a href="https://lms-sp.itc.kagawa-u.ac.jp/moodle2022/"             class="button_chipura1 animate__animated animate__bounceIn" id="button_kagawa"><h2>香川大学</h2></a>
+            <a href="https://moodle.kochi-u.ac.jp/2022/"                        class="button_chipura3 animate__animated animate__bounceIn" id="button_kochi"><h2>高知大学</h2></a>
+            <a href="https://lms.naruto-u.ac.jp/course/index.php?categoryid=26" class="button_chipura2 animate__animated animate__bounceIn" id="button_narukyo"><h2 >鳴門<Br>教育</h2></a>
+            <a href="https://moo3.chi.tokushima-u.ac.jp/"                       class="button_chipura2 animate__animated animate__bounceIn" id="button_tokushima"><h2>徳島<Br>大学</h2></a>
+            <a href="https://ja.englishcentral.com/myclass/118958/0/courses"    class="button_englishCentral animate__animated animate__bounceInUp"  id="englishCentral"><h2>English Central</h2></a>
+        </div>
+        <div class="tab_content" id="jikanwari_content">
+            <table border="1" id="jikanwari-table" class="animate__animated animate__fadeInUpBig">
+                <tr id="jikanwari-table-header"><th>校　　　時</th><th>時　　　間</th></tr>
+                <tr><th>１校時</th><th> 8:50～10:20</th></tr>
+                <tr><th>２校時</th><th>10:30～12:00</th></tr>
+                <tr><th>３校時</th><th>13:00～14:30</th></tr>
+                <tr><th>４校時</th><th>14:40～16:10	</th></tr>
+                <tr><th>５校時</th><th>16:20～17:50</th></tr>
+            </table>
+            <a href="https://www.kagawa-u.ac.jp/campus-life/about-class/timetable/"  class="animate__animated animate__fadeInUpBig" id="kadai-HP-jikanwari"><h2>香大HP</h2></a>
+        </div>
+        <div class="tab_content" id="twitter_content">
+            <a href="https://mobile.twitter.com/ku_setoku"><h1 class="button_twitterTitle animate__animated animate__fadeInLeftBig" id="twitterTitle">SETOKU 公式Twitter</h1></a>
+            <a href="https://twitter.com/KU_SETOKU/status/1458962584304979971"><h2 class="button_twitterAd animate__animated animate__fadeInRightBig" id="twitterAd">PR動画はコチラ</h2></a>
+            <img src="icon/pr2.png" id="pr2" class="animate__animated animate__bounceInLeft">
+            <img src="icon/pr1.png" id="pr1" class="animate__animated animate__bounceInUp">
+            <img src="icon/pr3.png" id="pr3" class="animate__animated animate__bounceInDown">
+            <img src="icon/pr4.png" id="pr4" class="animate__animated animate__bounceInRight">            
+        </div>
+        <div class="tab_content" id="movie_content">
+            <video loading="lazy" src="videos/1280-720.mp4" controls width="500px" autoplay muted loop class="animate__animated animate__backInUp" id="twitterVideos"></video>
+            <a href="https://mobile.twitter.com/ku_setoku"><h1 class="button_twitterTitle animate__animated animate__backInUp" id="movieTwitter">SETOKU 公式Twitter</h1></a>
+        </div>
+        <div class="tab_content" id="tools_content">
+            <!--button-->
+            <input id="tools_clock" type="radio" name="tools_tab_item" checked>
+            <label class="tools_tab_item hvr-sweep-to-top-tools" for="tools_clock">Clock</label>
+            <input id="tools_timer" type="radio" name="tools_tab_item">
+            <label class="tools_tab_item hvr-sweep-to-top-tools" for="tools_timer">Timer</label>
+            <input id="tools_stopWatch" type="radio" name="tools_tab_item">
+            <label class="tools_tab_item hvr-sweep-to-top-tools" for="tools_stopWatch">StopWatch</label>
+            <input id="tools_activeChecker" type="radio" name="tools_tab_item">
+            <label class="tools_tab_item hvr-sweep-to-top-tools" for="tools_activeChecker">サイト状態</label>
+
+            <!--content-->
+            <!--clock-->
+            <div class="tools_tab_content" id="tools_clock_content">
+                <p id="tools_clock_kyouha">今日は、</p>
+                <p id="clock_display_today">今日</p>
+                <p id="tools_clock_gennzaijikokuha">現在時刻は、</p>
+                <p id="clock_display">現在時刻</p>
+                <script src="scripts/clock.js" charset="UTF-8"></script>
+            </div>
+            <!--timer-->
+            <div class="tools_tab_content" id="tools_timer_content">
+                <form id="timer-input-form">
+                    <div class="timer-input-text">
+                        <input type="number" value="0" class="timer_input" id="time-input_h" />
+                        <label for="time-input_h" class="time-input2">h&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" value="0" class="timer_input" id="time-input_m" />
+                        <label for="time-input_m"class="time-input2">m&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" value="0" class="timer_input" id="time-input_s" />
+                        <label for="time-input_s" class="time-input2">s&nbsp;&nbsp;&nbsp;</label>
+                    </div>
+                    <div class="timer_output-text">
+                        <span id="timer_nokori">のこり<br></span>
+                        <span class="count_down1" id="count-down_h">00</span>
+                        <span class="count_down2" id="count-down_hh">h</span>
+                        <span class="count_down1" id="count-down_m">00</span>
+                        <span class="count_down2" id="count-down_mm">m</span>
+                        <span class="count_down1" id="count-down_s">00</span>
+                        <span class="count_down2" id="count-down_ss">s</span>
+                        <span class="count_down1" id="count-down_ms">000</span>
+                        <span class="count_down2" id="count-down_msms">ms</span>
+                    </div>
+            
+                    <div class="timer_submit">
+                        <button type="button" class="timer_button" id="start-button">スタート</button>
+                        <button type="button" class="timer_button" id="reset-button">リセット</button>
+                    </div>
+                </form>
+                <script src="scripts/timer.js"></script>
+            </div>
+            <!--stopwatch-->
+            <div class="tools_tab_content" id="tools_stopWatch_content">
+                <div class="stopWatch_submit">
+                    <button type="button" class="stopWatch_button" id="stopWatch-start-button">スタート</button>
+                    <button type="button" class="stopWatch_button" id="stopWatch-reset-button">ストップ</button>
+                    <button type="button" class="stopWatch_button" id="stopWatch-reset-button2">リセット</button>
+                </div>
+                <div class="stopWatch_display">
+                    <span class="stopWatch_count1" id="stopWatch_count_h">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_hh">h</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_m">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_mm">m</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_s">00</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_ss">s</span>
+                    <span class="stopWatch_count1" id="stopWatch_count_msec">000</span>
+                    <span class="stopWatch_count2" id="stopWatch_count_msecmsec">ms</span>
+                    <span id="stopWatch_keika">経過</span>
+                </div>
+                <script src="scripts/stopwatch.js"></script>
+            </div>
+            <div class="tools_tab_content" id="tools_activeChecker_content">
+                <iframe 
+                width="530px"
+                height="350px"
+                scrolling="no"
+                frameborder="no"
+                widget=false: 
+                chrome=false:
+                loading="lazy"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQR_kY690NWAXvJ7qK8kLhEW7NOQgY8P4NrJQVPpwIgMfNgcdRPCLEzz8yhyIcxkqEKGyn1XISWqIpC/pubhtml?gid=0&single=true">
+            </div>
+        </div>
+    </body>
+</html>
