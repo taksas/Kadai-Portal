@@ -1,0 +1,30 @@
+﻿{
+    "name":"Kadai-Portal",
+    "manifest_version":3,
+    "version":"1.2.0",
+    "permissions": ["storage"],
+    "description": "Link Collection for Students of Kagawa-Univ by SETOKU",
+    "icons": {
+        "16": "src/icon/icon16.png",
+        "48": "src/icon/icon48.png",
+        "128": "src/icon/icon128.png"
+    },
+    "action":{
+        "default_icon":{
+            "19":"src/icon/icon19.png"
+        },
+        "default_title":"【隊員募集中】SETOKU サイバー防犯ボランティア",
+        "default_popup":"src/popup.html"
+    },
+    "homepage_url":"https://kadai-portal.mimimimineko.com/",
+    "background": {
+        "service_worker": "src/scripts/moodleColorBackground.js"
+    },
+    "content_scripts":[
+        {
+            "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*"],
+            "run_at":"document_start",
+            "js":["src/scripts/moodleContentScripts.js","src/scripts/jquery-3.6.0.min.js"]
+        }
+    ]
+}
