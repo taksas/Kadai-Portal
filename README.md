@@ -1,6 +1,6 @@
 # Kadai-Portal
 公式サイトは
-kadai-portal.mimimimineko.com
+https://kadai-portal.mimimimineko.com/
 です。
 
 ChromeWebStoreは
