@@ -8,4 +8,4 @@ https://chrome.google.com/webstore/detail/kadai-portal/hdhoinnfhbpffegdjmkkhoijb
 です。
 
 バージョン管理とは。。GitHubの使い方間違えてる。
-初めて作った成果物だから許して
+# 初めて作った成果物だから許して
