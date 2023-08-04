@@ -246,7 +246,6 @@ function calculateNumberOfCharacters() {
               extractedStrings = textArea.innerHTML.replace(regex0, "").replace(regex1, "").replace(regex2, "").replace(regex3, "　");
               // 文字数の表示用要素を更新
               length.textContent = extractedStrings.length + " 文字";
-              console.log(extractedStrings);
   });
 
   // 監視のオプションを設定
