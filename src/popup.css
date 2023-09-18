@@ -68,14 +68,19 @@ body{
         margin-right: 10px;
         position:absolute; top:190px; left:380px;
     }
-    #f_one{
-        width: 230px;
+    #f_zero{
+        width: 180px;
         text-align: center;
-        position:absolute; top:370px; left:10px;
+        position:absolute; top:370px; left:5px;
+    }
+    #f_one{
+        width: 180px;
+        text-align: center;
+        position:absolute; top:370px; left:190px;
     }
     #f_two{
         text-align: center;
-        position:absolute; top:370px; left:240px;
+        position:absolute; top:370px; left:380px;
     }
     #button_portal {
         display       : inline-block;
@@ -153,6 +158,29 @@ body{
             opacity       : 0.8;         /* カーソル時透明度 */
         }
 
+    #button_kadasapo {
+        width: 120px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #8072f8;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        }
+        #button_dreamcampus:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
+        #description{
+            clear: left;
+            position:absolute; top:435px; left:130px;
+        }
+    
     #button_dreamcampus {
         display       : inline-block;
         border-radius : 14%;          /* 角丸       */
