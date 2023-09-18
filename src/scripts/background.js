@@ -28,9 +28,11 @@ chrome.runtime.onMessage.addListener(
 
 
 ////インストール時
-chrome.runtime.onInstalled.addListener(() =>{
-  
-  chrome.tabs.create({url: "https://kadai-portal.mimimimineko.com"});
+chrome.runtime.onInstalled.addListener(function(details) {
+  if (details.reason === "install" || details.reason === "update") {
+    // 特定のサイトを開く
+    chrome.tabs.create({ url: "https://kadai-portal.mimimimineko.com" });
+  }
   //コンテクストメニュー追加
   chrome.contextMenus.create(
     {

@@ -1,7 +1,7 @@
 {
     "name":"Kadai-Portal",
     "manifest_version":3,
-    "version":"2.0.0",
+    "version":"2.0.2",
     "permissions": ["storage","downloads","activeTab","contextMenus","tabs"],
     "description": "Chrome Extension for Students of Kagawa-Univ by SETOKU",
     "icons": {
