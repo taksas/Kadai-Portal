@@ -47,11 +47,13 @@ body{
         width: 150px;
     }
     #Outlook{
-        width:100px
+        height:70px
     }
     #Onedrive{
+        height: 50px;
+    }
+    #classboard{
         width: 100px;
-        position: relative; top:20px; left:00px;
     }
     #one{
         width: 200px;
@@ -59,14 +61,14 @@ body{
         position:absolute; top:190px; left:10px;
     }
     #two{
-        width: 160px;
+        width: 120px;
         margin-right: 2px;
         position:absolute; top:190px; left:220px;
     }
     #three{
-        width:110px;
+        width:170px;
         margin-right: 10px;
-        position:absolute; top:190px; left:380px;
+        position:absolute; top:190px; left:340px;
     }
     #f_zero{
         width: 180px;
@@ -125,14 +127,14 @@ body{
         border-radius : 14%;          /* 角丸       */
         text-align    : center;      /* 文字位置   */
         cursor        : pointer;     /* カーソル   */
-        padding       : 12px 25px;   /* 余白       */
+        padding       : 12px 15px;   /* 余白       */
         background    : #14b429;     /* 背景色     */
         color         : #ffffff;     /* 文字色     */
         line-height   : 1em;         /* 1行の高さ  */
         opacity       : 1;           /* 透明度     */
         transition    : .3s;         /* なめらか変化 */
         box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
-        height        : 150px;
+        height        : 73px;
         }
         #button_outlook:hover {
             box-shadow    : none;        /* カーソル時の影消去 */
@@ -144,20 +146,37 @@ body{
         border-radius : 14%;          /* 角丸       */
         text-align    : center;      /* 文字位置   */
         cursor        : pointer;     /* カーソル   */
-        padding       : 12px 25px;   /* 余白       */
+        padding       : 12px 15px;   /* 余白       */
         background    : #906094;     /* 背景色     */
         color         : #ffffff;     /* 文字色     */
         line-height   : 1em;         /* 1行の高さ  */
         opacity       : 1;           /* 透明度     */
         transition    : .3s;         /* なめらか変化 */
         box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
-        height        : 150px;
+        height        : 60px;
         }
         #button_onedrive:hover {
             box-shadow    : none;        /* カーソル時の影消去 */
             opacity       : 0.8;         /* カーソル時透明度 */
         }
-
+    #button_classboard {
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 12px 25px;   /* 余白       */
+        background    : #e3b727;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 2em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+        height        : 160px;
+        }
+        #button_classboard:hover {
+            box-shadow    : none;        /* カーソル時の影消去 */
+            opacity       : 0.8;         /* カーソル時透明度 */
+        }
     #button_kadasapo {
         width: 120px;
         display       : inline-block;
