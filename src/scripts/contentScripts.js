@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
         // duckdnsによるドメインは全てフィッシングとする
         if(domain.indexOf("duckdns.org")!=-1){
           console.log("duckdns.org検知");
-          window.alert("フィッシングの恐れあり(DDNS) Scaned By SETOKU");
+          window.alert("フィッシングの恐れあり(DDNS) Scanned By SETOKU");
         }else
         
         // amazon
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="amazon.com"){
             console.log("Amazon正規サイトです。");
           }else{
-            window.alert("Amazonを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("Amazonを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
         
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="auone.jp"){
             console.log("au ID正規サイトです。");
           }else{
-            window.alert("auを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("auを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
   
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 domain=="eki-net.com"){
               console.log("えきねっと正規サイトです。");
             }else{
-              window.alert("えきねっとを騙るフィッシングの恐れあり Scaned By SETOKU");
+              window.alert("えきねっとを騙るフィッシングの恐れあり Scanned By SETOKU");
             }
           }else
           // モバイルsuica
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 domain=="mobilesuica.com"){
               console.log("モバイルSuica正規サイトです。");
             }else{
-              window.alert("モバイルSuicaを騙るフィッシングの恐れあり Scaned By SETOKU");
+              window.alert("モバイルSuicaを騙るフィッシングの恐れあり Scanned By SETOKU");
             }
           }else
   
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="aeon.co.jp"){
             console.log("イオンカード正規サイトです。");
           }else{
-            window.alert("イオンカードを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("イオンカードを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
   
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 domain=="smbc.co.jp"){
               console.log("三井住友銀行正規サイトです。");
             }else{
-              window.alert("三井住友銀行を騙るフィッシングの恐れあり Scaned By SETOKU");
+              window.alert("三井住友銀行を騙るフィッシングの恐れあり Scanned By SETOKU");
             }
           }else
   
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 domain=="smbc-card.com"){
               console.log("三井住友カード正規サイトです。");
             }else{
-              window.alert("三井住友カードを騙るフィッシングの恐れあり Scaned By SETOKU");
+              window.alert("三井住友カードを騙るフィッシングの恐れあり Scanned By SETOKU");
             }
           }else
       
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //       domain=="saisoncard.co.jp"){
         //     console.log("SAISON CARD Netアンサー正規サイトです。");
         //   }else{
-        //     window.alert("SAISON CARD Netアンサーを騙るフィッシングの恐れあり Scaned By SETOKU");
+        //     window.alert("SAISON CARD Netアンサーを騙るフィッシングの恐れあり Scanned By SETOKU");
         //   }
         // }else
   
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="mercari.com"){
             console.log("メルカリ正規サイトです。");
           }else{
-            window.alert("メルカリを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("メルカリを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
   
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="etc-meisai.jp"){
             console.log("ETC利用照会サービス正規サイトです。");
           }else{
-            window.alert("ETC利用照会サービスを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("ETC利用照会サービスを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
   
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //         domain=="softbank.jp"){
         //       console.log("My SoftBank正規サイトです。");
         //     }else{
-        //       window.alert("My SoftBankを騙るフィッシングの恐れあり Scaned By SETOKU");
+        //       window.alert("My SoftBankを騙るフィッシングの恐れあり Scanned By SETOKU");
         //     }
         //   }else
 
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="japanpost.jp"){
             console.log("ゆうびんポータル正規サイトです。");
           }else{
-            window.alert("ゆうびんポータルを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("ゆうびんポータルを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         }else
 
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function(){
               domain=="jcb.co.jp"){
             console.log("My JCB正規サイトです。");
           }else{
-            window.alert("My JCBを騙るフィッシングの恐れあり Scaned By SETOKU");
+            window.alert("My JCBを騙るフィッシングの恐れあり Scanned By SETOKU");
           }
         // }else
 
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //       domain=="eposcard.co.jp"){
         //     console.log("エポスNet正規サイトです。");
         //   }else{
-        //     window.alert("エポスNetを騙るフィッシングの恐れあり Scaned By SETOKU");
+        //     window.alert("エポスNetを騙るフィッシングの恐れあり Scanned By SETOKU");
         //   }
         }
 
