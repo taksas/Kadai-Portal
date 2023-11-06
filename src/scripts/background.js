@@ -4,28 +4,20 @@ chrome.runtime.onMessage.addListener(
     console.log(sender.tab ?
                 "from a content script:" + sender.tab.url :
                 "from the extension");
-
     if (request.greeting === "messageFromContentScripts!!"){
       chrome.storage.local.get("color", function (value) {
         sendResponse({color: value.color});
       });
     }
-
     if (request.greeting === "messageFromPopup!!"){
       chrome.storage.local.set({'color': request.color}, function () {});
       chrome.storage.local.get("color", function (value) {
         sendResponse({color: value.color});
       });
     }
-
     return true;
   }
 );
-
-
-
-
-
 
 ////インストール時
 chrome.runtime.onInstalled.addListener(function(details) {

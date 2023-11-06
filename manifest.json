@@ -1,7 +1,7 @@
 {
     "name":"Kadai-Portal",
     "manifest_version":3,
-    "version":"2.0.3",
+    "version":"2.0.4",
     "permissions": ["storage","downloads","activeTab","contextMenus","tabs"],
     "description": "Chrome Extension for Students of Kagawa-Univ by SETOKU",
     "icons": {
@@ -16,7 +16,7 @@
             "128": "src/icon/icon128.png"
             },
         "default_title":"【隊員募集中】SETOKU サイバー防犯ボランティア",
-        "default_popup":"src/popup.html"
+        "default_popup":"src/popup/popup.html"
     },
     "homepage_url":"https://kadai-portal.mimimimineko.com/",
     "background": {
@@ -26,7 +26,12 @@
         {
             "matches": ["<all_urls>"],
             "run_at":"document_start",
-            "js":["src/scripts/contentScripts.js","src/scripts/jquery-3.6.0.min.js"]
+            "js":["src/scripts/allsites/copyURLTrigger.js","src/scripts/allsites/scanphishing.js"]
+        },
+        {
+            "matches": ["https://kadai-moodle.kagawa-u.ac.jp/*","https://lms-sp.itc.kagawa-u.ac.jp/*"],
+            "run_at":"document_start",
+            "js":["src/scripts/kadai-moodle/calculateNumberOfChar.js","src/scripts/kadai-moodle/changeMainColor.js"]
         }
     ],
     "commands": {

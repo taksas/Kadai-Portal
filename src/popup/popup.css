@@ -13,6 +13,7 @@ body{
 /*Mainタブ*/
     #button_tsukaikata{
         position:absolute; top:130px; left:15px;
+        width: 130px;
         display       : inline-block;
         border-radius : 14%;          /* 角丸       */
         font-size     : 10pt;        /* 文字サイズ */
@@ -26,11 +27,30 @@ body{
         transition    : .3s;         /* なめらか変化 */
         box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
     }
+    #button_gakunenreki:hover {
+        box-shadow    : none;        /* カーソル時の影消去 */
+        opacity       : 0.8;         /* カーソル時透明度 */
+    }
+    #button_gakunenreki{
+        position:absolute; top:130px; left:220px;
+        width: 130px;
+        display       : inline-block;
+        border-radius : 14%;          /* 角丸       */
+        font-size     : 10pt;        /* 文字サイズ */
+        text-align    : center;      /* 文字位置   */
+        cursor        : pointer;     /* カーソル   */
+        padding       : 0px 25px;   /* 余白       */
+        background    : #c919c0;     /* 背景色     */
+        color         : #ffffff;     /* 文字色     */
+        line-height   : 1em;         /* 1行の高さ  */
+        opacity       : 1;           /* 透明度     */
+        transition    : .3s;         /* なめらか変化 */
+        box-shadow    : 5px 5px 3px #666666;  /* 影の設定 */
+    }
         #button_tsukaikata:hover {
             box-shadow    : none;        /* カーソル時の影消去 */
             opacity       : 0.8;         /* カーソル時透明度 */
         }
-
     #QR{
         position:absolute; top:72px; right:15px;
         width: 100px;
